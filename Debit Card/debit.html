@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debit Card</title>
+    <link rel="stylesheet" href="debit.css">
+</head>
+<body>
+    <div id="card-section">
+        <div class="card-body">
+            <div class="front-card card">
+    <h1><img src="bank logo.png" alt="bank logo"><span>Bank Alfalah</span></h1>
+    <div class="images">
+    <img src="chip1.PNG" alt="chip1" width="55px" height="45px" style="border-radius: 5px;"> 
+    <img src="chip2.PNG" alt="chip2" width="80px" height="45px" style="border-radius: 5px;">
+</div>
+<h2 id="card-number"></h2>
+<div class="dates">
+<span>Issue Date:</span><h3 id="issue-date"></h3>
+<span>Expiry Date:</span><h3 id="expiry-date"></h3>
+</div>
+ <span>Card Holder Name:</span><h3 id="card-holder"></h3>
+       </div>
+            <div class="back-card card"> 
+   <p id="call">For Customer Service , Call +123456789</p>
+   <div style="background-color: black; height: 60px; margin: 10px 0px;"> .</div>
+   <div class="lining-div">
+<div class="lines">
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+</div>
+<div><h2>123</h2></div>
+   </div>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum id quo molestiae nam sunt, minima alias delectus dignissimos, aliquam dicta aperiam necessitatibus dolorem. Autem consequuntur ad, nobis magnam nostrum commodi.</p>
+            </div>
+        </div>
+        <button onclick="anotherCard();">Get another</button>
+    </div>
+    <div id="card-information">
+        <h1>To Create A Debit Card, You Have To Share Some Of Your Information With Us </h1>
+        <p>Your Full Name :</p>
+           <input type="text" id="name" placeholder="Enter Your Full Name"><br/>
+           <p>Your Mobile Number :</p>
+           <input type="number" id="mobile" placeholder="Enter Your Mobile Number"><br/>
+           <p>Your CNIC Number :</p>
+           <input type="number" id="cnic" placeholder="Enter Your CNIC Number"><br/>
+           <p>Your Date Of Birth :</p>
+           <input type="date" placeholder="Enter Your Date Of Birth" id="DOB"><br/>
+            <button onclick="debitCard();">Create Card</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="debit.js"></script>
+</body>
+</html>

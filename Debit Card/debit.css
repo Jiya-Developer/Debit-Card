@@ -1,0 +1,170 @@
+#card-information {
+    text-align: center;
+     width: 50%;
+     margin: 40px auto;
+}
+
+#card-information h1 {
+    color: navy;
+    margin: 40px 15px;
+}
+#card-information input {
+    width: 300px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 3px 15px;
+    font-size: 17px;
+}
+#card-information p {
+text-align: left;
+margin-left: 170px;
+font-size: 18px;
+margin-bottom: 5px;
+margin-top: 25px;
+}
+button {
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #011735;
+    border: 2px solid white;
+color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+button:hover {
+    border: 2px solid navy;
+    background: none;
+    color: navy;
+}
+.card-body {
+    height: 280px;
+    width: 450px;
+    border-radius: 12px;
+    background-image: url(background\ image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 1s;
+   transform-style: preserve-3d;
+}
+#card-section {
+    position: absolute;
+    top: 130px;
+    left: 450px;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-body:hover {
+    background-color: #042651; 
+    transform: rotateY(180deg);
+}
+.card {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    backface-visibility: hidden;
+}
+.front-card h1 {
+    margin: 0px;
+}
+.front-card h1 img {
+     width: 55px;
+     height: 55px;
+   }
+   .front-card h1 span {
+position: absolute;
+top: 20px;
+left: 55px;
+font-size: 26px;
+color: white;
+   }
+   .front-card .images {
+    margin: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+   }
+   .front-card  #card-number {
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size: 34px !important;
+    color: white;
+    font-family:  Times;
+   }
+   .front-card span {
+    font-size: 22px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+   }
+.front-card h3 {
+    font-size: 32px;
+    color: white;
+    display: inline;
+    margin-left: 15px;
+}
+.front-card .dates {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.front-card .dates h3 {
+    font-size: 24px;
+    color: white;
+    display: inline;
+    position: relative;
+    top: 50px;
+    left: -30px;
+}
+.front-card span {
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+.front-card h3 {
+    margin-left: 40px;
+    margin-top: -30px;
+}
+.back-card {
+    border-radius: 12px;
+    background-color: #00367c;
+    transform: rotateY(180deg);
+}
+.back-card #call {
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+}
+.back-card .lining-div {
+    border-radius: 5px;
+    margin: 10px 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.back-card .lines {
+width: 90%;
+}
+.back-card p {
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 20px 10px 10px 10px;
+}
+#card-section button {
+    border: 2px solid navy !important;
+    background: none !important;
+    color: navy !important;
+}
+#card-section button:hover {
+    background-color: #011735 !important;
+    border: 2px solid white !important;
+color: white !important;
+}
